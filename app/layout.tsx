@@ -1,5 +1,4 @@
 "use client";
-import "@mantine/carousel/styles.css";
 import "@mantine/core/styles.css";
 import "@mantine/dates/styles.css";
 
@@ -13,6 +12,7 @@ import {
   Flex,
   Image,
   Avatar,
+  Title,
 } from "@mantine/core";
 
 import { useDisclosure } from "@mantine/hooks";
@@ -20,7 +20,7 @@ import { useDisclosure } from "@mantine/hooks";
 import { IconHome } from "@tabler/icons-react";
 
 import { theme } from "../theme";
-import { poppins, roboto } from "./ui/fonts";
+import { poppins, roboto } from "../ui/fonts";
 
 // import logoNavbar from "./public/logoNavbar.svg";
 
@@ -47,30 +47,26 @@ export default function RootLayout({ children }: { children: any }) {
       </head>
       <body>
         <MantineProvider theme={theme} forceColorScheme="light">
-          <AppShell header={{ height: 60 }}>
-            <AppShell.Header bg={"blue"} withBorder={false}>
+          <AppShell bg={"#e5e5e5"} header={{ height: 60 }}>
+            <AppShell.Header
+              px={"10vw"}
+              bg={"rgba(0, 0, 0, 0)"}
+              withBorder={false}
+              zIndex={0}
+            >
               <Flex h={"100%"} align={"center"} px={"lg"} gap={"md"}>
-                <Burger
-                  opened={opened}
-                  onClick={toggle}
-                  hiddenFrom="sm"
-                  size="sm"
-                  color="white"
-                />
+
                 {/* <Image src={logoNavbar}></Image> */}
+                <Title mr={"auto"}>Pullcatt</Title>
 
                 <Flex visibleFrom="sm" align={"center"} px={"lg"} gap={"md"}>
-                  <Anchor href="/" underline="never" c={"white"}>
-                    Inicio
+                  <Anchor href="/" underline="never" c={"black"}>
+                    Home
                   </Anchor>
-                  <Anchor href="/reservaciones" underline="never" c={"white"}>
-                    Reservaciones
-                  </Anchor>
-                  <Anchor href="/tienda" underline="never" c={"white"}>
-                    Tienda
+                  <Anchor href="/contactus" underline="never" c={"black"}>
+                    Contact Us
                   </Anchor>
                 </Flex>
-                <Avatar radius="xl" color={"white"} />
               </Flex>
             </AppShell.Header>
 
