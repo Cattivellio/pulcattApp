@@ -17,13 +17,22 @@ import ElectricScissorLift from "../images/machinery/ElectricScissorLift.png";
 import ElectricVerticalMastLift from "../images/machinery/ElectricVerticalMastLift.png";
 
 import { Slide } from "react-awesome-reveal";
+import { useTranslations } from "next-intl";
+import { title } from "process";
 
 export default function MachineryCarousel() {
+  const t = useTranslations("MachineryCarousel");
+
   const machinery = [
-    { img: ElectricScissorLift, desc: "Electric Scissor Lift" },
+    {
+      img: ElectricScissorLift,
+      title: t("machine1"),
+      desc: t("desc1"),
+    },
     {
       img: ElectricVerticalMastLift,
-      desc: "Electric Vertical MastLift",
+      title: t("machine2"),
+      desc: t("desc2"),
     },
   ];
 
@@ -33,17 +42,14 @@ export default function MachineryCarousel() {
         <Stack>
           <Slide direction="left" triggerOnce>
             <Title order={2}>
-              Check Out All Our{" "}
+              {t("title")}{" "}
               <Text span c="orange" inherit>
-                Maquinery
+                {t("machinery")}
               </Text>
             </Title>
           </Slide>
           <Slide direction="right" triggerOnce>
-            <Text>
-              Our vast selection of construction and event equipment ensures you
-              have the right tools for every job. Services that we Offer:
-            </Text>
+            <Text>{t("description")} </Text>
           </Slide>
         </Stack>
       </Grid.Col>
@@ -73,10 +79,11 @@ export default function MachineryCarousel() {
                       fit="cover"
                     />
                   </Card.Section>
-                  <Text size="sm" c="dimmed" mt={"lg"}>
-                    With Fjord Tours you can explore more of the magical fjord
-                    landscapes with tours and activities on and around the
-                    fjords of Norway
+                  <Text fw={500} mt={"lg"}>
+                    {machine.title}
+                  </Text>
+                  <Text size="sm" c="dimmed" mt={"xs"}>
+                    {machine.desc}
                   </Text>
                 </Card>
               </Slide>

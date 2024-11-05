@@ -2,6 +2,7 @@
 
 import { Text, Group, Stack, Title, Grid, ThemeIcon } from "@mantine/core";
 import { Fade } from "react-awesome-reveal";
+import { useTranslations } from "next-intl";
 
 import {
   IconBulldozer,
@@ -10,32 +11,30 @@ import {
   IconRosetteDiscountCheck,
 } from "@tabler/icons-react";
 export default function InfoGrid() {
+  const t = useTranslations("InfoGrid");
+
   const infoGrid = [
     {
       icon: <IconBulldozer style={{ width: "100%", height: "100%" }} />,
-      title: "Diverse Inventory",
-      description:
-        "Our vast selection of construction and event equipment ensures you have the right tools for every job.",
+      title: t("item1"),
+      description: t("itemDes1"),
     },
     {
       icon: <IconDiscount style={{ width: "100%", height: "100%" }} />,
-      title: "Special Discounts",
-      description:
-        "Get exclusive deals on top-quality equipment for your next project.",
+      title: t("item2"),
+      description: t("itemDes2"),
     },
     {
       icon: <IconShovel style={{ width: "100%", height: "100%" }} />,
-      title: "Local Expertise",
-      description:
-        "Our deep roots in Houston’s vibrant market mean we understand your needs and are here to support your projects with local insight.",
+      title: t("item3"),
+      description: t("itemDes3"),
     },
     {
       icon: (
         <IconRosetteDiscountCheck style={{ width: "100%", height: "100%" }} />
       ),
-      title: "Exceptional Service",
-      description:
-        "We’re committed to your success, providing fast, reliable rentals and unmatched customer support every step of the way.",
+      title: t("item4"),
+      description: t("itemDes4"),
     },
   ];
 
@@ -44,16 +43,9 @@ export default function InfoGrid() {
       <Grid.Col span={{ base: 12, lg: 4 }}>
         <Stack>
           <Fade cascade triggerOnce>
-            <Title order={2}>Empowering Construction Excellence</Title>
+            <Title order={2}>{t("title")}</Title>
 
-            <Text>
-              At PULCATT Rental, we understand the dynamic demands of the
-              construction and event industries. With our extensive inventory of
-              high-quality equipment and commitment to superior service, we’re
-              here to ensure your projects are completed with efficiency and
-              precision. Whether you’re building the future or crafting
-              memorable events, we are is your partner in success.
-            </Text>
+            <Text>{t("description")} </Text>
           </Fade>
         </Stack>
       </Grid.Col>

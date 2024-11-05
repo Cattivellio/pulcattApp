@@ -5,7 +5,7 @@
   },
 
   "Hero": {
-    "title": "Efficiency in Every Machine with PULCATT",
+    "title": "Efficiency in Every Machine with",
     "subtitle": "Top-quality hardware tools and expert construction services for every project need.",
     "button": "Start Exploring",
     "button2": "Contact Us"
@@ -25,7 +25,8 @@
   },
 
   "MachineryCarousel": {
-    "title": "Check Out All Our Maquinery",
+    "title": "Check Out All Our",
+    "machinery": "Machinery",
     "description": "Our vast selection of construction and event equipment ensures you have the right tools for every job. Services that we Offer:",
     "machine1": "Electric Scissor Lift",
     "desc1": "Electric Scissor Lift",

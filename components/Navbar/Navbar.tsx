@@ -13,20 +13,24 @@ import {
 
 import Image from "next/image";
 
-import { useDisclosure } from "@mantine/hooks";
+import cookie from "js-cookie";
 
 import { IconHome } from "@tabler/icons-react";
 import logoNavbar from "../../public/logoNavbar.png";
 
-import setLang from "../../src/actions/setLanguage";
-export default function RootLayout() {
+import { useRouter } from "next/navigation";
+
+export default function Navbar() {
+  const router = useRouter();
   const [language, setLanguage] = useState<string | null>("en");
 
   useEffect(() => {
-    const languages = async () => {
-      await setLang(language ? language : "en");
-    };
-    languages();
+    setLanguage(cookie.get("language"));
+  }, []);
+
+  useEffect(() => {
+    cookie.set("language", language);
+    router.refresh();
   }, [language]);
 
   return (

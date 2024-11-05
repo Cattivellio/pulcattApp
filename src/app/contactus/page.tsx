@@ -30,8 +30,15 @@ export default function FAQ() {
   const t = useTranslations("ContactUs");
 
   return (
-    <Stack align="center" gap={rem(100)} mt={"12vh"}>
-      <Grid py={"xl"} w={"100%"} px={"10vw"} gutter={rem(100)} align="center">
+    <Stack align="center" gap={rem(100)} mt={"12vh"} h={"100vh"}>
+      <Grid
+        h={"100%"}
+        py={"xl"}
+        w={"100%"}
+        px={"10vw"}
+        gutter={rem(100)}
+        align="center"
+      >
         <Grid.Col span={{ base: 12, md: 6 }}>
           <Stack ta={"center"}>
             <Title>{t("title")}</Title>

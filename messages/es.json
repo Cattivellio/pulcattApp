@@ -5,7 +5,7 @@
   },
 
   "Hero": {
-    "title": "Eficiencia en Cada Máquina con PULCATT",
+    "title": "Eficiencia en Cada Máquina con",
     "subtitle": "Herramientas de hardware de alta calidad y servicios de construcción expertos para cada necesidad de proyecto.",
     "button": "Comienza a Explorar",
     "button2": "Contáctanos"
@@ -25,7 +25,8 @@
   },
 
   "MachineryCarousel": {
-    "title": "Revisa Toda Nuestra Maquinaria",
+    "title": "Revisa Toda Nuestra",
+    "machinery": "Maquinaria",
     "description": "Nuestra amplia selección de equipos para construcción y eventos asegura que tengas las herramientas adecuadas para cada trabajo. Servicios que ofrecemos:",
     "machine1": "Elevador de Tijera Eléctrico",
     "desc1": "Elevador de Tijera Eléctrico",
