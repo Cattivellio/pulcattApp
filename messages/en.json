@@ -1,0 +1,73 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "Contact Us"
+  },
+
+  "Hero": {
+    "title": "Efficiency in Every Machine with PULCATT",
+    "subtitle": "Top-quality hardware tools and expert construction services for every project need.",
+    "button": "Start Exploring",
+    "button2": "Contact Us"
+  },
+
+  "InfoGrid": {
+    "title": "Empowering Construction Excellence",
+    "description": "At PULCATT Rental, we understand the dynamic demands of the construction and event industries. With our extensive inventory of high-quality equipment and commitment to superior service, we’re here to ensure your projects are completed with efficiency and precision. Whether you’re building the future or crafting memorable events, we are is your partner in success.",
+    "item1": "Diverse Inventory",
+    "itemDes1": "Our vast selection of construction and event equipment ensures you have the right tools for every job.",
+    "item2": "Special Discounts",
+    "itemDes2": "Get exclusive deals on top-quality equipment for your next project.",
+    "item3": "Local Expertise",
+    "itemDes3": "Our deep roots in Houston’s vibrant market mean we understand your needs and are here to support your projects with local insight.",
+    "item4": "Exceptional Service",
+    "itemDes4": "We’re committed to your success, providing fast, reliable rentals and unmatched customer support every step of the way."
+  },
+
+  "MachineryCarousel": {
+    "title": "Check Out All Our Maquinery",
+    "description": "Our vast selection of construction and event equipment ensures you have the right tools for every job. Services that we Offer:",
+    "machine1": "Electric Scissor Lift",
+    "desc1": "Electric Scissor Lift",
+    "machine2": "Electric Scissor Lift",
+    "desc2": "Electric Scissor Lift"
+  },
+
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "description": "Ask us anything about our machinery and its rental, and get factual responses.",
+    "question1": "What types of tools are included in the Starter Kit?",
+    "answer1": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks.",
+    "question2": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
+    "answer2": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support and receive exclusive content. Contact our support team for a seamless transition."
+  },
+
+  "Footer": {
+    "title": "© 2024 PULCATT. Creado por Walter Cattivelli."
+  },
+
+  "ContactUs": {
+    "title": "Contact Us!",
+    "description": "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution.",
+    "fillForm": "Fill in the form below",
+    "name": "First Name",
+    "apellido": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "details": "Details",
+    "submit": "Send Message",
+    "back": "We'll get back to you in 1-2 business days.",
+
+    "item1": "FAQ",
+    "itemdesc1": "Explore our FAQ for quick, clear answers to common queries.",
+    "itemlink1": "Visit FAQ",
+
+    "item2": "Our garage location",
+    "itemdesc2": "PULCATT LCC",
+    "itemlink2": "5087 FM2001, Buda, TX 78610",
+
+    "item3": "Contact us by email",
+    "itemdesc3": "Prefer the written word? Drop us an email at",
+    "itemlink3": "info@pulcatt.com"
+  }
+}

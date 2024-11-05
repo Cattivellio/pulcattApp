@@ -1,13 +1,8 @@
 "use client";
 
-import {
-  Text,
-  Group,
-  Stack,
-  Title,
-  Grid,
-  ThemeIcon,
-} from "@mantine/core";
+import { Text, Group, Stack, Title, Grid, ThemeIcon } from "@mantine/core";
+import { Fade } from "react-awesome-reveal";
+
 import {
   IconBulldozer,
   IconDiscount,
@@ -48,16 +43,18 @@ export default function InfoGrid() {
     <Grid px={"10vw"} gutter={"xl"}>
       <Grid.Col span={{ base: 12, lg: 4 }}>
         <Stack>
-          <Title order={3}>Empowering Construction Excellence</Title>
+          <Fade cascade triggerOnce>
+            <Title order={2}>Empowering Construction Excellence</Title>
 
-          <Text>
-            At PULCATT Rental, we understand the dynamic demands of the
-            construction and event industries. With our extensive inventory of
-            high-quality equipment and commitment to superior service, we’re
-            here to ensure your projects are completed with efficiency and
-            precision. Whether you’re building the future or crafting memorable
-            events, we are is your partner in success.
-          </Text>
+            <Text>
+              At PULCATT Rental, we understand the dynamic demands of the
+              construction and event industries. With our extensive inventory of
+              high-quality equipment and commitment to superior service, we’re
+              here to ensure your projects are completed with efficiency and
+              precision. Whether you’re building the future or crafting
+              memorable events, we are is your partner in success.
+            </Text>
+          </Fade>
         </Stack>
       </Grid.Col>
 
@@ -65,16 +62,18 @@ export default function InfoGrid() {
         <Grid gutter={"xl"}>
           {infoGrid.map((item, index) => (
             <Grid.Col key={index} span={{ base: 12, sm: 6 }}>
-              <Group wrap="nowrap" align="start">
-                <ThemeIcon size={"lg"} variant="white" bg={"rgb(0,0,0,0)"}>
-                  {item.icon}
-                </ThemeIcon>
+              <Fade triggerOnce delay={index * 200}>
+                <Group wrap="nowrap" align="start">
+                  <ThemeIcon size={"lg"} variant="white" bg={"rgb(0,0,0,0)"}>
+                    {item.icon}
+                  </ThemeIcon>
 
-                <Stack gap={2}>
-                  <Title order={4}>{item.title}</Title>
-                  <Text>{item.description}</Text>
-                </Stack>
-              </Group>
+                  <Stack gap={2}>
+                    <Title order={4}>{item.title}</Title>
+                    <Text>{item.description}</Text>
+                  </Stack>
+                </Group>
+              </Fade>
             </Grid.Col>
           ))}
         </Grid>

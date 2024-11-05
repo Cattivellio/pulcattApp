@@ -1,0 +1,72 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Contáctanos"
+  },
+
+  "Hero": {
+    "title": "Eficiencia en Cada Máquina con PULCATT",
+    "subtitle": "Herramientas de hardware de alta calidad y servicios de construcción expertos para cada necesidad de proyecto.",
+    "button": "Comienza a Explorar",
+    "button2": "Contáctanos"
+  },
+
+  "InfoGrid": {
+    "title": "Impulsando la Excelencia en la Construcción",
+    "description": "En PULCATT Rental, entendemos las demandas dinámicas de las industrias de la construcción y eventos. Con nuestro extenso inventario de equipos de alta calidad y nuestro compromiso con un servicio superior, estamos aquí para asegurar que tus proyectos se completen con eficiencia y precisión. Ya sea construyendo el futuro o creando eventos memorables, somos tu socio en el éxito.",
+    "item1": "Inventario Diverso",
+    "itemDes1": "Nuestra amplia selección de equipos para construcción y eventos asegura que tengas las herramientas adecuadas para cada trabajo.",
+    "item2": "Descuentos Especiales",
+    "itemDes2": "Obtén ofertas exclusivas en equipos de alta calidad para tu próximo proyecto.",
+    "item3": "Experiencia Local",
+    "itemDes3": "Nuestra profunda conexión con el vibrante mercado de Houston significa que entendemos tus necesidades y estamos aquí para apoyar tus proyectos con conocimientos locales.",
+    "item4": "Servicio Excepcional",
+    "itemDes4": "Estamos comprometidos con tu éxito, proporcionando alquileres rápidos y confiables y un soporte al cliente inigualable en cada paso del camino."
+  },
+
+  "MachineryCarousel": {
+    "title": "Revisa Toda Nuestra Maquinaria",
+    "description": "Nuestra amplia selección de equipos para construcción y eventos asegura que tengas las herramientas adecuadas para cada trabajo. Servicios que ofrecemos:",
+    "machine1": "Elevador de Tijera Eléctrico",
+    "desc1": "Elevador de Tijera Eléctrico",
+    "machine2": "Elevador de Tijera Eléctrico",
+    "desc2": "Elevador de Tijera Eléctrico"
+  },
+
+  "FAQ": {
+    "title": "Preguntas Frecuentes",
+    "description": "Pregúntanos cualquier cosa sobre nuestra maquinaria y su alquiler, y obtén respuestas claras.",
+    "question1": "¿Qué tipos de herramientas están incluidas en el Kit de Inicio?",
+    "answer1": "El Kit de Inicio incluye herramientas manuales y eléctricas esenciales para proyectos de bricolaje, como martillos, taladros, destornilladores y una variedad de sujetadores. Es una selección curada para ayudar tanto a principiantes como a aficionados experimentados a abordar la mayoría de las tareas de mejora del hogar.",
+    "question2": "¿Puedo actualizar del Kit de Inicio al Maletín Profesional?",
+    "answer2": "¡Claro que sí! Puedes actualizarte al Maletín Profesional en cualquier momento para acceder a una gama más amplia de herramientas de alta calidad, disfrutar de soporte prioritario y recibir contenido exclusivo. Contacta a nuestro equipo de soporte para una transición sin problemas."
+  },
+
+  "Footer": {
+    "title": "© 2024 PULCATT. Creado por Walter Cattivelli."
+  },
+
+  "ContactUs": {
+    "title": "¡Contáctanos!",
+    "description": "¿Tienes preguntas o quieres discutir un proyecto? Escríbenos y juntos crearemos la solución perfecta.",
+    "fillForm": "Rellena el formulario a continuación",
+    "name": "Nombre",
+    "apellido": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "details": "Detalles",
+    "submit": "Enviar Mensaje",
+    "back": "Te responderemos en 1-2 días hábiles.",
+    "item1": "FAQ",
+    "itemdesc1": "Explore our FAQ for quick, clear answers to common queries.",
+    "itemlink1": "Visit FAQ",
+
+    "item2": "Our garage location",
+    "itemdesc2": "PULCATT LCC",
+    "itemlink2": "5087 FM2001, Buda, TX 78610",
+
+    "item3": "Contact us by email",
+    "itemdesc3": "Prefer the written word? Drop us an email at",
+    "itemlink3": "info@pulcatt.com"
+  }
+}
