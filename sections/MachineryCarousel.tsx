@@ -24,7 +24,6 @@ import TelescopicBoomLift from "../images/machinery/TelescopicBoomLift.png";
 
 import { Slide } from "react-awesome-reveal";
 import { useTranslations } from "next-intl";
-import { title } from "process";
 
 export default function MachineryCarousel() {
   const t = useTranslations("MachineryCarousel");
@@ -99,27 +98,29 @@ export default function MachineryCarousel() {
         >
           {machinery.map((machine, index) => (
             <Carousel.Slide key={index}>
-              <Card shadow="sm" padding="lg" radius="md" bg={"white"}>
-                <Card.Section>
-                  <MantineImage
-                    component={Image}
-                    src={machine.img}
-                    alt={machine.desc}
-                    mah={400}
-                    fit="cover"
-                  />
-                </Card.Section>
-                <Text fw={500} mt={"lg"}>
-                  {machine.title}
-                </Text>
-                <Text size="sm" c="dimmed" mt={"xs"}>
-                  {machine.desc}
-                </Text>
+              <Slide direction="up" triggerOnce >
+                <Card shadow="sm" padding="lg" radius="md" bg={"white"}>
+                  <Card.Section>
+                    <MantineImage
+                      component={Image}
+                      src={machine.img}
+                      alt={machine.desc}
+                      mah={400}
+                      fit="cover"
+                    />
+                  </Card.Section>
+                  <Text fw={500} mt={"lg"}>
+                    {machine.title}
+                  </Text>
+                  <Text size="sm" c="dimmed" mt={"xs"}>
+                    {machine.desc}
+                  </Text>
 
-                <Button variant="light" size="xs" mt={"lg"}>
-                  {t("button")}
-                </Button>
-              </Card>
+                  <Button variant="light" size="xs" mt={"lg"}>
+                    {t("button")}
+                  </Button>
+                </Card>
+              </Slide>
             </Carousel.Slide>
           ))}
         </Carousel>
