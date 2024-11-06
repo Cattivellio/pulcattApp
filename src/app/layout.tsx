@@ -28,7 +28,10 @@ export default async function RootLayout({
 
   return (
     <html
-      style={{ scrollBehavior: "smooth" }}
+      style={{
+        scrollBehavior: "smooth",
+        maxWidth: "100vw",
+      }}
       lang={locale}
       className={`${roboto.className} antialiased`}
       suppressHydrationWarning
@@ -41,7 +44,11 @@ export default async function RootLayout({
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         /> */}
       </head>
-      <body>
+      <body
+        style={{
+          backgroundColor: "#e5e5e5",
+        }}
+      >
         <MantineProvider theme={theme} forceColorScheme="light">
           <Navbar />
 

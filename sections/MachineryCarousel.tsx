@@ -9,12 +9,18 @@ import {
   Image as MantineImage,
   Title,
   Grid,
+  Button,
 } from "@mantine/core";
 
 import { Carousel } from "@mantine/carousel";
 
 import ElectricScissorLift from "../images/machinery/ElectricScissorLift.png";
 import ElectricVerticalMastLift from "../images/machinery/ElectricVerticalMastLift.png";
+import MitsubishiForklift from "../images/machinery/MitsubishiForklift.png";
+import MobileAirCompressor from "../images/machinery/MobileAirCompressor.png";
+import MobileGenerator from "../images/machinery/MobileGenerator.png";
+import SnakeRiver from "../images/machinery/SnakeRiver.png";
+import TelescopicBoomLift from "../images/machinery/TelescopicBoomLift.png";
 
 import { Slide } from "react-awesome-reveal";
 import { useTranslations } from "next-intl";
@@ -34,10 +40,35 @@ export default function MachineryCarousel() {
       title: t("machine2"),
       desc: t("desc2"),
     },
+    {
+      img: MitsubishiForklift,
+      title: t("machine3"),
+      desc: t("desc3"),
+    },
+    {
+      img: MobileAirCompressor,
+      title: t("machine4"),
+      desc: t("desc4"),
+    },
+    {
+      img: MobileGenerator,
+      title: t("machine5"),
+      desc: t("desc5"),
+    },
+    {
+      img: SnakeRiver,
+      title: t("machine6"),
+      desc: t("desc6"),
+    },
+    {
+      img: TelescopicBoomLift,
+      title: t("machine7"),
+      desc: t("desc7"),
+    },
   ];
 
   return (
-    <Grid id="explore" px={"10vw"} gutter={"xl"} align="center">
+    <Grid id="explore" px={"10vw"} gutter={"xl"} align="center" maw={"100%"}>
       <Grid.Col span={{ base: 12, lg: 4 }}>
         <Stack>
           <Slide direction="left" triggerOnce>
@@ -68,25 +99,27 @@ export default function MachineryCarousel() {
         >
           {machinery.map((machine, index) => (
             <Carousel.Slide key={index}>
-              <Slide key={index} direction="up" delay={index * 200} triggerOnce>
-                <Card shadow="sm" padding="lg" radius="md">
-                  <Card.Section>
-                    <MantineImage
-                      component={Image}
-                      src={machine.img}
-                      alt={machine.desc}
-                      mah={400}
-                      fit="cover"
-                    />
-                  </Card.Section>
-                  <Text fw={500} mt={"lg"}>
-                    {machine.title}
-                  </Text>
-                  <Text size="sm" c="dimmed" mt={"xs"}>
-                    {machine.desc}
-                  </Text>
-                </Card>
-              </Slide>
+              <Card shadow="sm" padding="lg" radius="md" bg={"white"}>
+                <Card.Section>
+                  <MantineImage
+                    component={Image}
+                    src={machine.img}
+                    alt={machine.desc}
+                    mah={400}
+                    fit="cover"
+                  />
+                </Card.Section>
+                <Text fw={500} mt={"lg"}>
+                  {machine.title}
+                </Text>
+                <Text size="sm" c="dimmed" mt={"xs"}>
+                  {machine.desc}
+                </Text>
+
+                <Button variant="light" size="xs" mt={"lg"}>
+                  {t("button")}
+                </Button>
+              </Card>
             </Carousel.Slide>
           ))}
         </Carousel>

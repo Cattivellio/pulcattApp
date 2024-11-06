@@ -28,10 +28,21 @@
     "title": "Revisa Toda Nuestra",
     "machinery": "Maquinaria",
     "description": "Nuestra amplia selección de equipos para construcción y eventos asegura que tengas las herramientas adecuadas para cada trabajo. Servicios que ofrecemos:",
-    "machine1": "Elevador de Tijera Eléctrico",
-    "desc1": "Elevador de Tijera Eléctrico",
-    "machine2": "Elevador de Tijera Eléctrico",
-    "desc2": "Elevador de Tijera Eléctrico"
+    "button": "Solicita información",
+    "machine1": "Electric Scissor Lift",
+    "desc1": "Electric Scissor Lift",
+    "machine2": "Electric Scissor Lift",
+    "desc2": "Electric Scissor Lift",
+    "machine3": "Mitsubishi Forklift",
+    "desc3": "Mitsubishi Forklift",
+    "machine4": "Mobile Air Compressor",
+    "desc4": "Mobile Air Compressor",
+    "machine5": "Mobile Generator",
+    "desc5": "Mobile Generator",
+    "machine6": "Mitsubishi Forklift",
+    "desc6": "Mitsubishi Forklift",
+    "machine7": "Mitsubishi Forklift",
+    "desc7": "Mitsubishi Forklift"
   },
 
   "FAQ": {
@@ -58,16 +69,17 @@
     "details": "Detalles",
     "submit": "Enviar Mensaje",
     "back": "Te responderemos en 1-2 días hábiles.",
-    "item1": "FAQ",
-    "itemdesc1": "Explore our FAQ for quick, clear answers to common queries.",
-    "itemlink1": "Visit FAQ",
 
-    "item2": "Our garage location",
-    "itemdesc2": "PULCATT LCC",
+    "item1": "Preguntas Frecuentes",
+    "itemdesc1": "Explora nuestras Preguntas Frecuentes para respuestas rápidas y claras a consultas comunes.",
+    "itemlink1": "Visitar Preguntas Frecuentes",
+
+    "item2": "Nuestra ubicación de garaje",
+    "itemdesc2": "PULCATT LLC",
     "itemlink2": "5087 FM2001, Buda, TX 78610",
 
-    "item3": "Contact us by email",
-    "itemdesc3": "Prefer the written word? Drop us an email at",
+    "item3": "Contáctanos por correo electrónico",
+    "itemdesc3": "¿Prefieres la palabra escrita? Envíanos un correo a",
     "itemlink3": "info@pulcatt.com"
   }
 }

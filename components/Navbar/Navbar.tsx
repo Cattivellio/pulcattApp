@@ -25,11 +25,11 @@ export default function Navbar() {
   const [language, setLanguage] = useState<string | null>("en");
 
   useEffect(() => {
-    setLanguage(cookie.get("language"));
+    setLanguage(cookie.get("language") || "en");
   }, []);
 
   useEffect(() => {
-    cookie.set("language", language);
+    cookie.set("language", language || "en");
     router.refresh();
   }, [language]);
 

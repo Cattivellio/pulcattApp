@@ -28,10 +28,21 @@
     "title": "Check Out All Our",
     "machinery": "Machinery",
     "description": "Our vast selection of construction and event equipment ensures you have the right tools for every job. Services that we Offer:",
+    "button": "Request information",
     "machine1": "Electric Scissor Lift",
     "desc1": "Electric Scissor Lift",
     "machine2": "Electric Scissor Lift",
-    "desc2": "Electric Scissor Lift"
+    "desc2": "Electric Scissor Lift",
+    "machine3": "Mitsubishi Forklift",
+    "desc3": "Mitsubishi Forklift",
+    "machine4": "Mobile Air Compressor",
+    "desc4": "Mobile Air Compressor",
+    "machine5": "Mobile Generator",
+    "desc5": "Mobile Generator",
+    "machine6": "Mitsubishi Forklift",
+    "desc6": "Mitsubishi Forklift",
+    "machine7": "Mitsubishi Forklift",
+    "desc7": "Mitsubishi Forklift"
   },
 
   "FAQ": {
@@ -44,7 +55,7 @@
   },
 
   "Footer": {
-    "title": "© 2024 PULCATT. Creado por Walter Cattivelli."
+    "title": "© 2024 PULCATT. Made by Walter Cattivelli."
   },
 
   "ContactUs": {

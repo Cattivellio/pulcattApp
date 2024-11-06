@@ -30,7 +30,7 @@ export default function FAQ() {
   const t = useTranslations("ContactUs");
 
   return (
-    <Stack align="center" gap={rem(100)} mt={"12vh"} h={"100vh"}>
+    <Stack align="center" gap={rem(100)} my={"12vh"}>
       <Grid
         h={"100%"}
         py={"xl"}
