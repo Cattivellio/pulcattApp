@@ -14,15 +14,12 @@ export default function FAQ() {
       question: t("question1"),
       answer: t("answer1"),
     },
-    {
-      question: t("question2"),
-      answer: t("answer2"),
-    },
+
   ];
 
   return (
     <JackInTheBox triggerOnce>
-      <Grid id="faq" px={"10vw"} gutter={"xl"} align="center">
+      <Grid id="faq" px={"10vw"} gutter={"xl"} align="center" mb={"xl"}>
         <Grid.Col span={{ base: 12, lg: 6 }}>
           <Stack>
             <Title order={2}>{t("title")}</Title>
@@ -31,10 +28,7 @@ export default function FAQ() {
         </Grid.Col>
 
         <Grid.Col span={{ base: 12, lg: 6 }}>
-          <Accordion
-            variant="filled"
-            defaultValue="Can I upgrade from the Starter Kit to the Professional Toolbox?"
-          >
+          <Accordion variant="filled" defaultValue={t("question1")}>
             {FAQ.map((item, index) => (
               <Accordion.Item key={index} value={item.question}>
                 <Accordion.Control styles={{ label: { fontWeight: "bold" } }}>

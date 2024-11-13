@@ -20,36 +20,24 @@
     "itemDes2": "Obtén ofertas exclusivas en equipos de alta calidad para tu próximo proyecto.",
     "item3": "Experiencia Local",
     "itemDes3": "Nuestra profunda conexión con el vibrante mercado de Houston significa que entendemos tus necesidades y estamos aquí para apoyar tus proyectos con conocimientos locales.",
-    "item4": "Servicio Excepcional",
-    "itemDes4": "Estamos comprometidos con tu éxito, proporcionando alquileres rápidos y confiables y un soporte al cliente inigualable en cada paso del camino."
+    "item4": "Servicio de transporte",
+    "itemDes4": "Ponemos a su disposición un servicio de transporte especializado que abarca todo el estado de Texas, asegurando el traslado seguro y eficiente sin importar el destino."
   },
 
   "MachineryCarousel": {
     "title": "Revisa Toda Nuestra",
     "machinery": "Maquinaria",
-    "description": "Nuestra amplia selección de equipos para construcción y eventos asegura que tengas las herramientas adecuadas para cada trabajo. Servicios que ofrecemos:",
+    "description": "Nuestra amplia selección de equipos para construcción asegura que tengas las herramientas adecuadas para cada trabajo.",
     "button": "Solicita información",
-    "machine1": "Electric Scissor Lift",
-    "desc1": "Electric Scissor Lift",
-    "machine2": "Electric Scissor Lift",
-    "desc2": "Electric Scissor Lift",
-    "machine3": "Mitsubishi Forklift",
-    "desc3": "Mitsubishi Forklift",
-    "machine4": "Mobile Air Compressor",
-    "desc4": "Mobile Air Compressor",
-    "machine5": "Mobile Generator",
-    "desc5": "Mobile Generator",
-    "machine6": "Mitsubishi Forklift",
-    "desc6": "Mitsubishi Forklift",
-    "machine7": "Mitsubishi Forklift",
-    "desc7": "Mitsubishi Forklift"
+    "button2": "Ver fotos",
+    "info": "Hola!%20vengo%20por%20detalles%20sobre"
   },
 
   "FAQ": {
     "title": "Preguntas Frecuentes",
     "description": "Pregúntanos cualquier cosa sobre nuestra maquinaria y su alquiler, y obtén respuestas claras.",
-    "question1": "Transportan otro tipo de maquinarias?",
-    "answer1": "El Kit de Inicio incluye herramientas manuales y eléctricas esenciales para proyectos de bricolaje, como martillos, taladros, destornilladores y una variedad de sujetadores. Es una selección curada para ayudar tanto a principiantes como a aficionados experimentados a abordar la mayoría de las tareas de mejora del hogar.",
+    "question1": "¿Ofrecen transporte a otras maquinarias?",
+    "answer1": "Si, el precio dependerá de la distancia y el peso de la maquinaria.",
     "question2": "Transportan otro tipo de maquinarias?",
     "answer2": "¡Claro que sí! Puedes actualizarte al Maletín Profesional en cualquier momento para acceder a una gama más amplia de herramientas de alta calidad, disfrutar de soporte prioritario y recibir contenido exclusivo. Contacta a nuestro equipo de soporte para una transición sin problemas."
   },

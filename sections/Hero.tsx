@@ -12,19 +12,16 @@ import {
   em,
 } from "@mantine/core";
 import lift from "../images/lift.webp";
-import { useMediaQuery, useScrollIntoView } from "@mantine/hooks";
+import { useMediaQuery } from "@mantine/hooks";
 import { useTranslations } from "next-intl";
 
 import { IconChevronRight } from "@tabler/icons-react";
 
 import { Fade, AttentionSeeker } from "react-awesome-reveal";
-export default function Hero() {
+export default function Hero({ scrollToFAQ }: any) {
   const t = useTranslations("Hero");
 
   const isMobile = useMediaQuery(`(max-width: ${em(750)})`);
-  const { scrollIntoView, targetRef } = useScrollIntoView<HTMLDivElement>({
-    offset: 60,
-  });
 
   return (
     <Grid px={"10vw"} gutter={"xl"} align="center">
@@ -48,11 +45,7 @@ export default function Hero() {
                   color="#fa5a15"
                   fw={700}
                   rightSection={<IconChevronRight size={18} />}
-                  onClick={() =>
-                    scrollIntoView({
-                      alignment: "center",
-                    })
-                  }
+                  onClick={scrollToFAQ}
                 >
                   {t("button")}
                 </Button>

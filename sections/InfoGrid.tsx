@@ -8,7 +8,7 @@ import {
   IconBulldozer,
   IconDiscount,
   IconShovel,
-  IconRosetteDiscountCheck,
+  IconTir,
 } from "@tabler/icons-react";
 export default function InfoGrid() {
   const t = useTranslations("InfoGrid");
@@ -31,7 +31,7 @@ export default function InfoGrid() {
     },
     {
       icon: (
-        <IconRosetteDiscountCheck style={{ width: "100%", height: "100%" }} />
+        <IconTir style={{ width: "100%", height: "100%" }} />
       ),
       title: t("item4"),
       description: t("itemDes4"),

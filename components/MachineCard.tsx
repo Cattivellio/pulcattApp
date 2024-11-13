@@ -2,8 +2,17 @@
 import "@mantine/core/styles.css";
 import "@mantine/dates/styles.css";
 
-import { useState, useEffect } from "react";
-import { Box, Card, Button, Image as MantineImage, Text } from "@mantine/core";
+import { useState } from "react";
+import {
+  List,
+  Card,
+  Button,
+  Image as MantineImage,
+  Text,
+  Badge,
+  Group,
+  Title,
+} from "@mantine/core";
 
 import Image from "next/image";
 
@@ -17,21 +26,21 @@ import NextJsImage from "../components/NextJsImage";
 type machine = {
   title: string;
   desc: string;
-  button: string;
   photos: any[];
+  button: string;
+  button2: string;
+  info: string;
 };
 
 export default function Navbar(machine: machine) {
   const [open, setOpen] = useState(false);
 
+  // button: t("button"),
+  // button2: t("button2"),
+  // info: t("info"),
+
   return (
-    <Card
-      shadow="sm"
-      padding="lg"
-      radius="md"
-      bg={"white"}
-      onClick={() => setOpen(true)}
-    >
+    <Card shadow="sm" padding="lg" radius="md" bg={"white"}>
       <Card.Section>
         <MantineImage
           component={Image}
@@ -41,16 +50,37 @@ export default function Navbar(machine: machine) {
           fit="cover"
         />
       </Card.Section>
-      <Text fw={500} mt={"lg"}>
-        {machine.title}
-      </Text>
-      <Text size="sm" c="dimmed" mt={"xs"}>
-        {machine.desc}
-      </Text>
 
-      <Button variant="light" size="xs" mt={"lg"}>
-        {machine.button}
-      </Button>
+      <Title fw={500} order={3} mt={"lg"}>
+        {machine.title}
+      </Title>
+
+      <Group gap={6} mt={"xs"}>
+        {machine.desc.split("\n").map((item: any, index: number) => (
+          <Badge key={index} radius="xs" bg={"gray.1"} c={"dimmed"}>
+            {item}
+          </Badge>
+        ))}
+      </Group>
+
+      <Group wrap="nowrap">
+        <Button
+          variant="outline"
+          mt={"lg"}
+          color="gray"
+          onClick={() => setOpen(true)}
+        >
+          {/* {machine.button} */}
+          {machine.button2}
+        </Button>
+        <Button
+          component="a"
+          href={`mailto:info@pulcatt.com?subject=Info%20${machine.title}&body=${machine.info}%20${machine.title}`}
+          mt={"lg"}
+        >
+          {machine.button}
+        </Button>
+      </Group>
 
       <Lightbox
         open={open}

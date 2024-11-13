@@ -60,6 +60,7 @@ import telehander16 from "../images/machinery/telehander/16.jpg";
 
 import { Slide } from "react-awesome-reveal";
 import { useTranslations } from "next-intl";
+import { info } from "console";
 
 export default function MachineryCarousel() {
   const t = useTranslations("MachineryCarousel");
@@ -86,8 +87,7 @@ export default function MachineryCarousel() {
         scissorLift16,
       ],
       title: "Scissor Lift",
-      desc: "19 ft / 550 lb 26 ft / 500 lb | 32 ft / 705 lb | 40 ft / 800 lb",
-      button: t("button"),
+      desc: "19ft/550lb\n26ft/500lb\n32ft/705lb\n40ft/800lb",
     },
     {
       photos: [
@@ -105,8 +105,7 @@ export default function MachineryCarousel() {
         forklift11,
       ],
       title: "Pneumatic Tire Forklift",
-      desc: "188 in / 5000 lb",
-      button: t("button"),
+      desc: "188in/5000lb",
     },
     {
       photos: [
@@ -129,8 +128,7 @@ export default function MachineryCarousel() {
         telehander16,
       ],
       title: "Telehander",
-      desc: "40 ft / 500lb | 60 ft / 1000 lb",
-      button: t("button"),
+      desc: "40ft/500lb\n60ft/1000lb",
     },
   ];
 
@@ -155,7 +153,7 @@ export default function MachineryCarousel() {
       <Grid.Col span={{ base: 12, lg: 8 }}>
         <Carousel
           slideSize={{ base: "100%", sm: "50%", md: "33.333333%" }}
-          slideGap={{ base: 0, sm: "md" }}
+          slideGap={{ base: "xs", sm: "md" }}
           withIndicators
           loop
           align={"start"}
@@ -171,7 +169,9 @@ export default function MachineryCarousel() {
                   photos={machine.photos}
                   title={machine.title}
                   desc={machine.desc}
-                  button={machine.button}
+                  button={t("button")}
+                  button2={t("button2")}
+                  info={t("info")}
                 />
               </Slide>
             </Carousel.Slide>

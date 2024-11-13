@@ -20,8 +20,8 @@
     "itemDes2": "Get exclusive deals on top-quality equipment for your next project.",
     "item3": "Local Expertise",
     "itemDes3": "Our deep roots in Houston’s vibrant market mean we understand your needs and are here to support your projects with local insight.",
-    "item4": "Exceptional Service",
-    "itemDes4": "We’re committed to your success, providing fast, reliable rentals and unmatched customer support every step of the way."
+    "item4": "Transport Service",
+    "itemDes4": "We offer a specialized transport service covering the entire state of Texas, ensuring safe and efficient transportation regardless of the destination."
   },
 
   "MachineryCarousel": {
@@ -29,20 +29,8 @@
     "machinery": "Machinery",
     "description": "Our vast selection of construction and event equipment ensures you have the right tools for every job. Services that we Offer:",
     "button": "Request information",
-    "machine1": "Electric Scissor Lift",
-    "desc1": "Electric Scissor Lift",
-    "machine2": "Electric Scissor Lift",
-    "desc2": "Electric Scissor Lift",
-    "machine3": "Mitsubishi Forklift",
-    "desc3": "Mitsubishi Forklift",
-    "machine4": "Mobile Air Compressor",
-    "desc4": "Mobile Air Compressor",
-    "machine5": "Mobile Generator",
-    "desc5": "Mobile Generator",
-    "machine6": "Mitsubishi Forklift",
-    "desc6": "Mitsubishi Forklift",
-    "machine7": "Mitsubishi Forklift",
-    "desc7": "Mitsubishi Forklift"
+    "button2": "View photos",
+    "info": "Hello!%20I%20would%20like%20to%20request%20information%20about"
   },
 
   "FAQ": {
