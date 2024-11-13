@@ -87,7 +87,7 @@ export default function Navbar(machine: machine) {
         close={() => setOpen(false)}
         slides={machine.photos}
         controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
-        render={{ slide: NextJsImage, thumbnail: NextJsImage }}
+        render={{ slide: NextJsImage }}
         plugins={[Thumbnails]}
       />
     </Card>
