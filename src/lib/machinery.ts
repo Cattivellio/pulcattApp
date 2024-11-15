@@ -130,9 +130,13 @@ export const machinery = [
       telehander3,
       telehander4,
       telehander5,
+      maq5,
+      maq5_1,
+      maq5_2,
+      maq5_3,
     ],
     title: "Telehandler",
-    desc: "40ft/500lb\n60ft/1000lb",
+    desc: "19ft/5500lb\n42ft/6000lb",
   },
   {
     photos: [
@@ -147,7 +151,7 @@ export const machinery = [
       trailer8,
     ],
     title: "Trailer",
-    desc: "???",
+    desc: "Trailers for Transportation",
   },
   {
     photos: [
@@ -161,10 +165,17 @@ export const machinery = [
       scaffold7,
     ],
     title: "Scaffold",
-    desc: "6ft\n12ft\n18ft",
+    desc: "6ftx6ft\n1100lb\nSteel",
   },
   {
-    photos: [boomLift, boomLift_1, boomLift_2, boomLift_3, boomLift_4, boomLift_5],
+    photos: [
+      boomLift,
+      boomLift_1,
+      boomLift_2,
+      boomLift_3,
+      boomLift_4,
+      boomLift_5,
+    ],
     title: "Telescopic Boom Lifts",
     desc: "40ft/500lb\n60ft/1000lb",
   },
@@ -180,17 +191,12 @@ export const machinery = [
       maq2_7,
       maq2_8,
     ],
-    title: "???",
-    desc: "???",
+    title: "Excavator",
+    desc: "Cab w/AC\nLong Arm\n18in Bucket\nHydraulic Thumb",
   },
   {
     photos: [maq4, maq4_1],
-    title: "???",
-    desc: "???",
-  },
-  {
-    photos: [maq5, maq5_1, maq5_2, maq5_3],
-    title: "???",
-    desc: "???",
+    title: "Compact Track Loaders",
+    desc: "Length of Track: 63.2in\nWidth of Track: 15.7in",
   },
 ];
