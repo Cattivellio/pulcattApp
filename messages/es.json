@@ -38,8 +38,20 @@
     "description": "Pregúntanos cualquier cosa sobre nuestra maquinaria y su alquiler, y obtén respuestas claras.",
     "question1": "¿Ofrecen transporte a otras maquinarias?",
     "answer1": "Si, el precio dependerá de la distancia y el peso de la maquinaria.",
-    "question2": "Transportan otro tipo de maquinarias?",
-    "answer2": "¡Claro que sí! Puedes actualizarte al Maletín Profesional en cualquier momento para acceder a una gama más amplia de herramientas de alta calidad, disfrutar de soporte prioritario y recibir contenido exclusivo. Contacta a nuestro equipo de soporte para una transición sin problemas."
+    "question2": "¿Se necesita un tráiler para trasladar las máquinas?",
+    "answer2": "Sí, debes traer un tráiler con la capacidad adecuada para la máquina que alquiles. También ofrecemos alquiler de tráileres si lo necesitas.",
+    "question3": "¿Se puede recoger la máquina en el sitio o establecimiento?",
+    "answer3": "Sí, en la dirección de nuestra empresa.",
+    "question4": "¿Es necesario realizar un depósito?",
+    "answer4": "Sí, es necesario hacer un depósito para la reserva de la máquina. Este monto se descontará del pago final, excepto en el caso del forklift, telehandler y Boomlift, donde el depósito se usará como garantía.",
+    "question5": "¿Cómo debe entregarse la máquina?",
+    "answer5": "La máquina debe devolverse en las mismas condiciones en las que fue recibida y con el mismo nivel de combustible.",
+    "question6": "¿Ofrecen servicios de transporte de mercancía?",
+    "answer6": "Sí, brindamos el servicio de transporte de mercancía de un lugar a otro, incluyendo la disponibilidad de un operador y un forklift si se requiere.",
+    "question7": "¿Cuándo se realiza el pago por la máquina?",
+    "answer7": "El pago debe realizarse cuando el conductor entrega la máquina o en el momento en que la retiras de nuestro establecimiento.",
+    "question8": "¿Tienen operadores disponibles?",
+    "answer8": "Sí, contamos con profesionales capacitados para operar todas las máquinas."
   },
 
   "Footer": {
@@ -66,8 +78,12 @@
     "itemdesc2": "PULCATT LLC",
     "itemlink2": "5087 FM2001, Buda, TX 78610",
 
-    "item3": "Contáctanos por correo electrónico",
-    "itemdesc3": "¿Prefieres la palabra escrita? Envíanos un correo a",
-    "itemlink3": "info@pulcatt.com"
+    "item3": "Llámanos",
+    "itemdesc3": "¡Estamos aquí para ayudarte! Llámanos",
+    "itemlink3": "+1 (512) 400-5002",
+
+    "item4": "Contáctanos por correo electrónico",
+    "itemdesc4": "¿Prefieres escribir? Envíanos un correo a",
+    "itemlink4": "info@pulcatt.com"
   }
 }

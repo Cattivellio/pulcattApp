@@ -9,8 +9,8 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../../theme";
 import { poppins, roboto } from "../../ui/fonts";
 
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../sections/Footer";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../sections/Footer";
 // import logoNavbar from "./public/logoNavbar.svg";
 
 export const metadata = {

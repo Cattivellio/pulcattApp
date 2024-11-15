@@ -21,12 +21,12 @@ import {
   IconMessages,
   IconMapPin,
   IconMailOpened,
-  IconRosetteDiscountCheck,
+  IconPhone,
 } from "@tabler/icons-react";
 
 import { useTranslations } from "next-intl";
 import { Slide } from "react-awesome-reveal";
-export default function FAQ() {
+export default function ContactUs() {
   const t = useTranslations("ContactUs");
 
   return (
@@ -93,14 +93,29 @@ export default function FAQ() {
               <Divider />
               <Group wrap="nowrap" align="start">
                 <ThemeIcon size={"lg"} variant="white" bg={"rgb(0,0,0,0)"}>
-                  <IconMailOpened />
+                  <IconPhone />
                 </ThemeIcon>
 
                 <Stack gap={2}>
                   <Title order={4}>{t("item3")}</Title>
                   <Text>{t("itemdesc3")}</Text>
-                  <Anchor component={Link} href="mailto:info@pulcatt.com">
+                  <Anchor component={Link} href="tel:+1512-400-5002">
                     {t("itemlink3")}
+                  </Anchor>
+                </Stack>
+              </Group>
+
+              <Divider />
+              <Group wrap="nowrap" align="start">
+                <ThemeIcon size={"lg"} variant="white" bg={"rgb(0,0,0,0)"}>
+                  <IconMailOpened />
+                </ThemeIcon>
+
+                <Stack gap={2}>
+                  <Title order={4}>{t("item4")}</Title>
+                  <Text>{t("itemdesc4")}</Text>
+                  <Anchor component={Link} href="mailto:info@pulcatt.com">
+                    {t("itemlink4")}
                   </Anchor>
                 </Stack>
               </Group>

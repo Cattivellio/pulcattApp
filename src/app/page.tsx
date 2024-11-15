@@ -1,10 +1,10 @@
 "use client";
 
 import { Stack, rem } from "@mantine/core";
-import Hero from "../../sections/Hero";
-import InfoGrid from "../../sections/InfoGrid";
-import MachineryCarousel from "../../sections/MachineryCarousel";
-import FAQ from "../../sections/FAQ";
+import Hero from "../sections/Hero";
+import InfoGrid from "../sections/InfoGrid";
+import MachineryCarousel from "../sections/MachineryCarousel";
+import FAQ from "../sections/FAQ";
 
 import { useScrollIntoView } from "@mantine/hooks";
 export default function HomePage() {

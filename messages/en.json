@@ -35,11 +35,23 @@
 
   "FAQ": {
     "title": "Frequently Asked Questions",
-    "description": "Ask us anything about our machinery and its rental, and get factual responses.",
-    "question1": "What types of tools are included in the Starter Kit?",
-    "answer1": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks.",
-    "question2": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-    "answer2": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support and receive exclusive content. Contact our support team for a seamless transition."
+    "description": "Ask us anything about our machinery and its rental, and get clear answers.",
+    "question1": "Do you offer transportation for other machinery?",
+    "answer1": "Yes, the price will depend on the distance and weight of the machinery.",
+    "question2": "Is a trailer needed to transport the machines?",
+    "answer2": "Yes, you must bring a trailer with the adequate capacity for the machine you are renting. We also offer trailer rentals if needed.",
+    "question3": "Can the machine be picked up at the site or establishment?",
+    "answer3": "Yes, at our company's address.",
+    "question4": "Is a deposit required?",
+    "answer4": "Yes, a deposit is required to reserve the machine. This amount will be deducted from the final payment, except in the case of the forklift, telehandler, and boom lift, where the deposit will be used as a guarantee.",
+    "question5": "How should the machine be returned?",
+    "answer5": "The machine should be returned in the same condition it was received and with the same fuel level.",
+    "question6": "Do you offer freight transportation services?",
+    "answer6": "Yes, we provide freight transportation from one location to another, including the availability of an operator and a forklift if needed.",
+    "question7": "When is the payment for the machine made?",
+    "answer7": "Payment should be made when the driver delivers the machine or at the moment you pick it up from our establishment.",
+    "question8": "Do you have operators available?",
+    "answer8": "Yes, we have trained professionals available to operate all machines."
   },
 
   "Footer": {
@@ -66,8 +78,12 @@
     "itemdesc2": "PULCATT LCC",
     "itemlink2": "5087 FM2001, Buda, TX 78610",
 
-    "item3": "Contact us by email",
-    "itemdesc3": "Prefer the written word? Drop us an email at",
-    "itemlink3": "info@pulcatt.com"
+    "item3": "Give us a call",
+    "itemdesc3": "We're here to help! Give us a call",
+    "itemlink3": "+1 (512) 400-5002",
+
+    "item4": "Contact us by email",
+    "itemdesc4": "Prefer the written word? Drop us an email at",
+    "itemlink4": "info@pulcatt.com"
   }
 }
